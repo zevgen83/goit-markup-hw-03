@@ -135,7 +135,6 @@ body {
     margin-bottom: 200px;
     min-width: 200px;
     border: var(--start-logo-text-color);
-    
     background-color: var(--start-logo-text-color);
     font-family: inherit;
     font-size: 16px;
@@ -258,6 +257,7 @@ body {
     border-radius: 4px;
     display: inline-block;
     padding: 6px 22px;
+    border: var(--grey-background);
     background-color: var(--grey-background);
     font-family: inherit;
     color: inherit;
