@@ -9,6 +9,7 @@
     --grey-background: #F5F4FA;
     --press-button: #188CE8;
     --line-color: #ECECEC;
+    --border-portfolio: #EEEEEE;
 }
 
 /* Общие стили */
@@ -35,7 +36,7 @@ body {
     align-items: center;
 }
 .line {
-    border: 1px solid  var(--line-color);
+    border: 1px solid var(--line-color);
 }
 .section {
     padding-top: 94px;
@@ -277,6 +278,7 @@ body {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
+    border: 1px solid var(--border-portfolio);
 }
  .portfolio-item:nth-child(3n) {
     margin-right: 0;
@@ -285,7 +287,7 @@ body {
     margin-bottom: 0; 
 }
 .portfolio-link {
-    display: inline-block;
+    display: block;    
 }
 .project {
     margin-top: 20px;
